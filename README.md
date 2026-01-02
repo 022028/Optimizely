@@ -1,2 +1,2 @@
 # Optimizely
-just a beginner friendly website , mainly the layouts
+A beginner friendly website, that focuses on mastering layouts(mainly html/css)
