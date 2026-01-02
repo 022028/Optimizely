@@ -1,0 +1,166 @@
+body{
+    font-size: 2em;
+    
+    background-color: rgb(240, 241, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     margin: 0px;
+    
+}
+#brand_name{
+    font-family: Georgia;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+.opts{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-family: Geneva;
+    transition: 0.3s;
+
+}
+.opts:hover{
+    color: rgb(254, 255, 255);
+    transform: scale(1.3);
+    text-decoration: underline rgb(167, 167, 169);
+    font-weight: bold;
+}
+header{
+    background-color: rgb(68, 77, 91);
+    width: 100%;
+    height: 50px;
+}
+.mybb{
+    height: 45px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: rgb(145, 208, 7);
+    color: white;
+    transition: 0.3s;
+}
+
+.mybb:hover{
+    transform: scale(1.1);
+font-size:15px;
+font-weight: bold;
+}
+
+#title{
+    color: rgb(84, 84, 129);
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+#title2{
+    color: rgb(84, 84, 129);
+    margin-top: 50px;
+    font-size:35px;
+    margin-left: 150px;
+
+}
+#sub_title{
+    align-self: flex-start;
+    font-size: 15px;
+    color:  rgb(118, 118, 159);
+    margin-top: -40px;
+    margin-left: 300px;
+}
+#sub_title2{
+    align-self: flex-start;
+    font-size: 15px;
+    color:  rgb(118, 118, 159);
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#divs{
+
+   display: flex;
+   gap: 150px;
+}
+.div{
+    border: 0px solid;
+    height: 250px;
+    width:200px ;
+    display: flex;
+   justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+    border-radius: 20px; 
+transition: 0.3s;
+    box-shadow: 5px 5px 17px rgb(131, 128, 128);
+}
+    
+.div:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 9px rgb(131, 128, 128);
+}
+.topic{
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    font-weight: bold;
+margin-top: 100px;
+}
+#inn_div{
+    background-image: url(bulb_icon.png);
+    background-repeat: no-repeat;
+    background-position:  top ;
+    background-size: 100px;
+}
+#cus_div{
+    background-image: url(love_icon.png);
+    background-repeat: no-repeat;
+    background-position:  top ;
+    background-size: 100px;  
+}
+
+#trans-div{
+    background-image: url(shield_icon.png);
+    background-repeat: no-repeat;
+    background-position:  top ;
+    background-size: 100px;
+}
+
+#foot{
+   margin-top: 20px;
+width: 100%;
+}
+
+#foot_div{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: aliceblue;
+
+}
+
+.com{
+    height: 150px;
+    width: 150px;
+    border: 0px solid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.topic2{
+    display: flex;
+    align-content: center;
+    
+    gap: px;
+    font-weight: bold;
+margin-top: 10px;
+}
+.content{
+    margin-top: 0px;
+    }
+
